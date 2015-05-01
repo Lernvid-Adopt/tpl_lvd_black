@@ -1,0 +1,67 @@
+﻿@charset "utf-8";
+/*---------------------------------------------------
+Desidgned by Juergen Koller
+Designers Home: http://www.LernVid.com
+---------------------------------------------------*/
+
+/*********** color 0 ******************************/
+#search_inner input, 
+#search_inner .inputbox {
+	background-color:#180118;
+	color: #555;
+}
+
+/*********** color 1 ******************************/
+div.module_menu h3 {
+	color: #fd41b9;
+}
+#search_inner .inputbox:hover {
+	color: #fd41b9;
+}
+#breadcrumbs {
+	color:#fd41b9;
+}
+#breadcrumbs a {
+	color: #fd41b9;
+}
+.module_menu ul.menu li a:hover, .module_menu ul.menu li a:active, .module_menu ul.menu li a:focus {
+	color: #fd41b9;
+}
+#navigation ul.menu li a {
+	color:#fd41b9;
+}
+.module_menu ul.menu li a:first-letter {
+	color: #fd41b9;
+}
+/*********** color 2 ******************************/
+a, a:link, a:visited, a:active, a:focus {
+	color: #fc93fc;
+}
+.button:hover {
+	color: #fc93fc;
+}
+/*********** color 3 ******************************/
+#navigation ul.menu li a:hover {
+	color:#fa1639;
+}
+#user5 div.moduletable h3, #user6 div.moduletable h3, #user7 div.moduletable h3 {
+	color: #fa1639;
+}
+#top div.moduletable h3, #user1 div.moduletable h3, #user2 div.moduletable h3 {
+	color: #fa1639;
+}
+table.module th, .module_text h3 {
+	color: #fa1639;
+}
+div.module h3{
+	color: #fa1639;
+}
+#sidebar_left div.module h3, #sidebar_right div.module h3 {
+	color: #fa1639;
+}
+.contentheading {
+	color: #fa1639;
+}
+.contentheading a {
+	color: #fa1639;
+}

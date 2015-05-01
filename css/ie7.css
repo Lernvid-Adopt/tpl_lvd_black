@@ -1,0 +1,9 @@
+﻿#top {
+	width: 98%;
+}
+div.module_menu div div div {
+	width: 180px;
+}
+.module_menu, div.module_text, div.module {
+	overflow: visible;
+}

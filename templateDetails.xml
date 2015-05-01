@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="1.6" type="template" method="upgrade">
+	<name>BLACK_LernVid.com</name>
+	<creationDate>Mar 2011</creationDate>
+	<author>Juergen Koller</author>
+	<copyright>Copyright LernVid.com and qpattern.com</copyright>
+	<authorEmail>webmaster@lernvid.com</authorEmail>
+	<authorUrl>http://www.lernvid.com</authorUrl>
+	<version>1.1</version>
+	<description>
+		&lt;h1&gt;The BLACK Joomla Template for Joomla 1.6&lt;/h1&gt;
+		&lt;h2&gt;Version: 1.1&lt;/h2&gt;
+		&lt;h2&gt;&lt;a href="http://www.lernvid.com" target="_blank"&gt;Authors Homepage&lt;/a&gt;&lt;br /&gt;
+		&lt;a href="http://www.lernvid.com/lizenz" target="_blank"&gt;Licence Information&lt;/a&gt;&lt;br /&gt;&lt;/h2&gt;
+		&lt;img src="../templates/black_lernvid.com/template_thumbnail.png" style="float:left; padding:10px 10px 10px 0;" /&gt;
+		&lt;h1&gt;Color variations&lt;/h1&gt;
+		&lt;img src="../templates/black_lernvid.com/images/styles1.png" style="float:left; padding:10;" /&gt;
+		&lt;img src="../templates/black_lernvid.com/images/styles2.png" style="float:left; padding:10;" /&gt;
+		&lt;img src="../templates/black_lernvid.com/images/styles3.png" style="float:left; padding:10;" /&gt;
+		&lt;img src="../templates/black_lernvid.com/images/styles4.png" style="float:left; padding:10;" /&gt;
+		&lt;img src="../templates/black_lernvid.com/images/styles5.png" style="float:left; padding:10;" /&gt;
+		&lt;img src="../templates/black_lernvid.com/images/styles6.png" style="float:left; padding:10;" /&gt;
+		&lt;img src="../templates/black_lernvid.com/images/styles7.png" style="float:left; padding:10;" /&gt;
+		&lt;img src="../templates/black_lernvid.com/images/styles8.png" style="float:left; padding:10;" /&gt;
+	</description>
+	<files>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<filename>index.php</filename>
+		<filename>head_includes.php</filename>
+		<filename>index.html</filename>
+		<filename>template_thumbnail.png</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field type="spacer" label="&lt;script src='../templates/black_lernvid.com/js/jscolor/jscolor.js' type='text/javascript'&gt;&lt;/script&gt;" />
+				<field type="spacer" default="" />
+		     	<field name="whatWidth" type="radio" default="1" label="TEMPLATE WIDTH" description="Here you can decide if you want to use Dynamic with or Fixed width. Choose the one you want and edit the following parameters..">
+			      <option value="1">DYNAMIC width</option>
+			      <option value="0">FIXED width</option>
+			    </field>
+				<field type="spacer" default="IF DYNAMIC" />
+				<field name="pageMaxWidth" type="text" default="1180px" label="max-width: of the Template" description="Default = 1180px - Choose the maximum width of the Template. The Template will get it and be dynamic."></field>
+				<field type="spacer" default="IF FIXED" />
+				<field name="pageWidth" type="text" default="980px" label="width: of the Template" description="Default = 980px - Choose the fixed width of the Template. The Template will get it and be fixed."></field>
+				<field type="spacer" default="" />
+				<field name="colorVariation" type="list" default="colors2" label="Default Color Variation" description="Choose the default color variation! --- It will be overwritten by a cookie if the stylechanger in the fronend is used">
+					<option value="colors1">Blue and Green</option>
+					<option value="colors2">Purple</option>
+					<option value="colors3">Yellow and Green</option>
+					<option value="colors4">Red and Orange</option>
+					<option value="colors5">Brown</option>
+					<option value="colors6">Pink</option>
+					<option value="colors7">Yellow and Orange</option>
+					<option value="colors8">Red and Gray</option>
+				</field>
+				<field type="spacer" default="" />
+		     	<field name="useJavascript" type="radio" default="1" label="Use Javascript?" description="Here you can decide if you want to use the Javascript Effects in the Template or not. Alle Effects are eyecatchers and not important functions in the Joomla Template. The styleswitcher is not included here. It can be on/offed below.">
+			      <option value="1">Yes</option>
+			      <option value="0">No</option>
+			    </field>
+				<field type="spacer" default="" />
+		     	<field name="showStyleswitcher" type="radio" default="1" label="Show the Styleswitcher in the Header?" description="Here you can decide if you want to show the Styleswitcher in the Header to let your users switch the CSS color Styles.">
+			      <option value="1">ON</option>
+			      <option value="0">OFF</option>
+			    </field>
+				<field type="spacer" default="" />
+				<field name="showLogo" type="radio" default="1" label="Show Image Logo?" description="IF ON: Show Joomla Sitetitle must be OFF!">
+				  <option value="1">ON</option>
+				  <option value="0">OFF</option>
+				</field>
+				<field type="spacer" default="" />
+				<field name="showSitetitle" type="radio" default="0" label="Show the Joomla - Sitetitle in the Header?" description="IF ON: Show Image Logo must be OFF!">
+				  <option value="1">ON</option>
+				  <option value="0">OFF</option>
+				</field>
+				<field name="FontSize" type="text" default="30" label="Sitetitle Font Size" description="Font Size of the Sitename Name in Pixel - Just play a bit with this to find out your best setting - default = 20"></field>
+				<field name="FontColor" class="color" type="text" default="C7FFF4" label="Sitetitle Color | sample: FFFFFF" description="Color of the Sitetitle - default: FFFFFF = white"></field>
+				<field type="spacer" default="" />
+			</fieldset>
+		</fields>
+	</config>
+	<positions>
+		<position>top</position>
+		<position>debug</position>
+		<position>footer</position>
+		<position>position-0</position>
+		<position>position-1</position>
+		<position>position-2</position>
+		<position>position-7</position>
+		<position>position-8</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>user7</position>
+	</positions>
+</extension>
